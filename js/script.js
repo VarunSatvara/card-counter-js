@@ -30,17 +30,11 @@ function add() {
     mydiv3.classList.add("card-action");
     mydiv.appendChild(mydiv3);
     mydiv3.innerHTML = '<a class="waves-effect waves-light btn" onclick="remove()">DELETE</a>';
-
-
-
-    document.getElementsByClassName('row')[0].appendChild(rdiv);
-
+    document.getElementsByClassName('row')[0].appendChild(sdiv);
     console.log(rdiv);
 }
 
 function remove() {
-    var elem = document.getElementById("mydiv2");
+    var elem = document.getElementById("mydiv");
     elem.parentNode.removeChild(elem);
-
-
 }
