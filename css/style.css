@@ -11,3 +11,7 @@ html {
     bottom: 20px;
     z-index: 99;
 }
+
+.btn-remove {
+    padding: 5px 10px;
+}
